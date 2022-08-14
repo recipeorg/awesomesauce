@@ -1,0 +1,20 @@
+{
+  "name": "awesomesauce",
+  "version": "1.0.0",
+  "description": "A web application for sharing recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recipeorg/awesomesauce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recipeorg/awesomesauce/issues"
+  },
+  "homepage": "https://github.com/recipeorg/awesomesauce#readme"
+}
