@@ -1,7 +1,9 @@
 // Establish Express App
-const { response } = require('express')
 const express = require('express')
 const app = express()
+
+// Set view engine for displaying .ejs pages
+app.set('view engine', 'ejs')
 
 // Routes
 app.get('/', (req, res) =>{
