@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/recipeorg/awesomesauce/issues"
   },
-  "homepage": "https://github.com/recipeorg/awesomesauce#readme"
+  "homepage": "https://github.com/recipeorg/awesomesauce#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
