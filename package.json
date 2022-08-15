@@ -1,0 +1,28 @@
+{
+  "name": "awesomesauce",
+  "version": "1.0.0",
+  "description": "A web application for sharing recipes",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recipeorg/awesomesauce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recipeorg/awesomesauce/issues"
+  },
+  "homepage": "https://github.com/recipeorg/awesomesauce#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
