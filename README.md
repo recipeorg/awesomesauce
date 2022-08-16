@@ -6,10 +6,5 @@ A web application for sharing recipes
 Clone Repository:
 `git clone https://github.com/recipeorg/awesomesauce.git`
 
-# Development setup
-
-Clone Repository:
-`git clone https://github.com/recipeorg/awesomesauce.git`
-
 Run Local Server:
 `npm run devStart`
