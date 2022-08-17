@@ -11,11 +11,11 @@ app.get('/', (req, res) =>{
 })
 
 app.get('/login', (req, res) =>{
-    res.render('index')
+    res.render('login')
 })
 
 app.get('/signup', (req, res) =>{
-    res.render('index')
+    res.render('signup')
 })
 
 // Make App listen on port 3000
