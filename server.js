@@ -18,5 +18,8 @@ app.get('/signup', (req, res) =>{
     res.render('signup')
 })
 
+// connect to MongoDB
+
+
 // Make App listen on port 3000
 app.listen(3000)
