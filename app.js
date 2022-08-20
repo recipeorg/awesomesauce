@@ -38,6 +38,7 @@ mongoose.connect(
 
 // Code to create a user object and save to database:
 // const user = new User({
+//     'username': 'exampleuser'
 //     'email': 'example@gmail.com',
 //     'password': 'password123'
 // })
