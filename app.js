@@ -19,13 +19,8 @@ app.get('/', (req, res) =>{
     res.render('index')
 })
 
-app.get('/login', (req, res) =>{
-    res.render('login')
-})
-
-app.get('/signup', (req, res) =>{
-    res.render('signup')
-})
+const authenticationRouter = require('./routes/auth')
+app.use('/auth', authenticationRouter)
 
 // connect to MongoDB
 mongoose.connect(
@@ -38,7 +33,7 @@ mongoose.connect(
 
 // Code to create a user object and save to database:
 // const user = new User({
-//     'username': 'exampleuser'
+//     'username': 'exampleuser',
 //     'email': 'example@gmail.com',
 //     'password': 'password123'
 // })
