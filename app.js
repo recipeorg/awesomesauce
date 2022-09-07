@@ -1,4 +1,5 @@
 // Establish Express App
+const { request } = require('express')
 const express = require('express')
 const app = express()
 
@@ -10,7 +11,7 @@ app.set('view engine', 'ejs')
 
 // Routes
 app.get('/', (req, res) =>{
-    res.render('index')
+    res.render('index', {name: req.user.username})
 })
 
 // Connects auth.js routes
